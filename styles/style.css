@@ -1,0 +1,103 @@
+*{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.3em;
+}
+
+html{
+        line-height: 1.15;
+}
+legend{
+    font-size: 2em;
+}
+
+body, .logo{
+    background-color: blue;
+    font-family: 'Roboto';
+}
+
+input[type="email"], input[type="password"] {
+    display: block;
+    height: auto;
+    font-size: 18px;
+    text-align: left;
+    border: 2px solid #e7e7e7;
+    border-radius: 3px;
+    background: #fcfcfc;
+    margin: 10px auto 20px;
+    transition: opacity 0.4s;
+}
+
+main{
+    display: block;
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;
+}
+
+main *{
+    margin: 2px;
+    padding: 15px;
+}
+
+form{
+    width: 320px;
+    padding: 15px;
+}
+
+form * {
+    width: 320px;
+    border-top: 10px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    text-align: center;
+    border: 0;
+}
+
+.logo{
+    
+}
+
+.logo>*{
+    height: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.title{
+    
+    text-align: center;
+}
+
+div{
+    margin: auto;
+}
+
+form button{
+    background-color: forestgreen;
+}
+
+form button:hover{
+    background-color: darkgreen;
+}
+
+.footer, .footer a{
+    text-align: center;
+    text-emphasis: bold;
+    color: white;
+}
+
+fieldset{
+    padding: 0px;
+    text-align: left;
+}
+
+
